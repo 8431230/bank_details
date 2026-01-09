@@ -23,7 +23,7 @@ if len(sys.argv) == 6:
     print("user provided input values:")
 else:
     script = sys.argv[0]
-    name = "Soumya"
+    name = "Swathi"
     account_no = 1234567890
     bank = "SBI"
     city = "Hubballi"
