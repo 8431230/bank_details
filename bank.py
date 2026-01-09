@@ -5,14 +5,11 @@ def safe_int(v, d):
         return int(v)
     except:
         return d
-
-
 def safe_str(v, d):
     if v.strip() == "":
         return d
     return v
-
-
+    
 if len(sys.argv) == 6:
     script = sys.argv[0]
     name = safe_str(sys.argv[1], "Unknown")
